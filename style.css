@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto ;
+    max-width: 1200px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    
+}
+
+.intro{
+    width: 30%;
+    height: 280px;
+    padding: 50px;
+    font-size: 2rem;
+}
+
+main{
+    display: flex;
+    background-image: url("images/designmeuble_pic_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.form{
+    background-color: rgba(255, 255, 255, 0.637);
+    display: flex;  
+    width: 40%;  
+    border: double rgb(255, 0, 0) 10px;
+    border-radius: 60px 0px;
+}
+
+form{
+    padding:30px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact{
+    width: 20%;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.384);
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: auto 20px;
+    border-radius: 50px 50px 10px ;
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+img{
+    height: 100%;
+
+}
+.card{
+    border: solid 3px;
+    text-align: center;
+    height: 100px;
+}
+.cardImg{
+    
+    width: 100%;
+ }
+
+ h2 {
+     color: red;
+     text-align: center;
+     font-size: 2rem;
+     text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em black;
+ }
+ input{
+     height: 2rem;
+     margin-top: 3px;
+     margin-bottom: 15px;
+     border:solid 2px;
+     
+ }
+
+ .btn{
+     background-color:red;
+     height: 50px;
+     border-radius: 10px;
+     margin: 10px 0;
+     color: white;
+     font-weight: 900;
+     font-size: 2rem;
+ }
+
+ @media only screen and (max-width: 850px){
+     main{
+         display: flex;
+         flex-direction: column;
+         background-image: url(images/designmeuble_bg-3.jpg);
+         align-items: center;
+     }
+
+     header, footer{
+         border-radius: 0px;
+     }
+
+     .form{
+         width: 80%;
+     }
+     input{
+         height: 3rem;
+     }
+ }
