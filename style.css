@@ -55,6 +55,7 @@ form{
 
 .contact{
     width: 20%;
+    min-width: 200px;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.384);
     text-align:center;
@@ -92,6 +93,7 @@ img{
  }
 
  h2 {
+    min-width: 200px;
      color: red;
      text-align: center;
      font-size: 2rem;
@@ -119,12 +121,16 @@ img{
      main{
          display: flex;
          flex-direction: column;
-         background-image: url(images/designmeuble_bg-3.jpg);
+         background-image: url("images/designmeuble_bg-3.jpg");
          align-items: center;
      }
 
      header, footer{
          border-radius: 0px;
+     }
+
+     h1{
+         text-align: center;
      }
 
      .form{
